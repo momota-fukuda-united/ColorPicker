@@ -13,6 +13,8 @@
 		A09AF9182436D06100FCF0F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A09AF9162436D06100FCF0F6 /* Main.storyboard */; };
 		A09AF91A2436D06200FCF0F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A09AF9192436D06200FCF0F6 /* Assets.xcassets */; };
 		A09AF91D2436D06200FCF0F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A09AF91B2436D06200FCF0F6 /* LaunchScreen.storyboard */; };
+		A09AF9252436D95E00FCF0F6 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09AF9242436D95E00FCF0F6 /* PickerViewController.swift */; };
+		A09AF92724371FE100FCF0F6 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09AF92624371FE100FCF0F6 /* Util.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A09AF9192436D06200FCF0F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A09AF91C2436D06200FCF0F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A09AF91E2436D06200FCF0F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A09AF9242436D95E00FCF0F6 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
+		A09AF92624371FE100FCF0F6 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				A09AF9192436D06200FCF0F6 /* Assets.xcassets */,
 				A09AF91B2436D06200FCF0F6 /* LaunchScreen.storyboard */,
 				A09AF91E2436D06200FCF0F6 /* Info.plist */,
+				A09AF9242436D95E00FCF0F6 /* PickerViewController.swift */,
+				A09AF92624371FE100FCF0F6 /* Util.swift */,
 			);
 			path = ColorPicker;
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 			files = (
 				A09AF9152436D06100FCF0F6 /* ViewController.swift in Sources */,
 				A09AF9112436D06100FCF0F6 /* AppDelegate.swift in Sources */,
+				A09AF92724371FE100FCF0F6 /* Util.swift in Sources */,
+				A09AF9252436D95E00FCF0F6 /* PickerViewController.swift in Sources */,
 				A09AF9132436D06100FCF0F6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
